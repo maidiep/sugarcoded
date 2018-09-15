@@ -1,7 +1,7 @@
 
 $(function() {
 
-    $("contactForm").validate({
+    $("#contactForm").validate({
         rules: {
             email: {
                 required: true,

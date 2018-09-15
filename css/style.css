@@ -90,6 +90,11 @@ p {
     animation-duration: 3s;    
 }
 
+#gallery {
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
 .btn {
     background: #e2b3b2 !important;
 }
@@ -108,3 +113,4 @@ textarea.md-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #e2b3b2 !important;
   box-shadow: 0 1px 0 0 #e2b3b2 !important;
 }
+
