@@ -9,7 +9,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="css/animate.css">
 
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -64,11 +63,11 @@
         <div id="intro" class="view">
             <div class="mask flex-center">
                 <div class="container-fluid full-bg-img d-flex align-items-center justify-content-center">
-                    <div class=row d-flex justify-content-center">
+                    <div class=row d-flex justify-content-center"> 
                         <div class="col-md-12 text-center">
                             <img class="animated slideInDown slower" src="/img/lightbox/circlelogo.png" alt="logo" height="400">
                             <h3 class="didactGothic">Welcome to</h3>
-                            <h1 class="poppins display-3 black-text font-bold mb-2 animated slideInUp slower"">
+                            <h1 class="poppins display-3 black-text font-bold mb-2 animated zoomIn slow delay-2s">
                                 <font color="whitesmoke">SUGAR</font>
                                 <font color="#846351">CODED</font>
                             </h1>
@@ -96,7 +95,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-4 justify-content-left">
-                            <img alt="profile pic" src="/img/lightbox/profilepic.png" height="300" />
+                            <img class="wow slideInRight slower delay-.5" alt="profile pic" src="/img/lightbox/profilepic.png" height="300" />
                         </div>
                         <div id="bio" class="col-md-8">
                             <br>
@@ -133,7 +132,7 @@
                     <font color="#846351">GALLERY</font>
                 </h1>
 
-                <iframe src="//lightwidget.com/widgets/9a1bf147130c5d7c9fd01eb58aa63314.html" scrolling="no"
+                <iframe class="wow fadeInUp slower" src="//lightwidget.com/widgets/9a1bf147130c5d7c9fd01eb58aa63314.html" scrolling="no"
                     allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
             </section>
 
@@ -191,6 +190,11 @@
         <!-- LightWidget WIDGET -->
         <!-- LightWidget WIDGET -->
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <!-- wow.js  -->
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
 
 
 </body>
