@@ -23,12 +23,12 @@ header,
 }
 
 .navbar {
-    background-color: whitesmoke !important;
+    background-color:#110C11 !important;
     padding: 0px;
 }
 
 .nav-link, .navbar-brand {
-    color: black !important;
+    color:whitesmoke !important;
     padding: 10px;
 
 }
@@ -42,8 +42,8 @@ header,
 }
 
 .poppins {
-    font-family: "Poppins", semibold;
-    color: black;
+    font-family: "Poppins", sans-serif;
+    color: #110C11;
 }
 
 .openSans {
@@ -72,8 +72,8 @@ p {
 }
 
 .page-footer {
-    background-color: #e2b3b2;
-    color: black !important;
+    background-color:#110C11;
+    color:whitesmoke !important;
 }
 
 ::placeholder {
@@ -82,4 +82,8 @@ p {
 
 .emoji {
     animation-duration: 3s;    
+}
+
+.btn {
+    background: #e2b3b2 !important;
 }
