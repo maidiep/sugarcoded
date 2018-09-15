@@ -23,7 +23,7 @@ header,
 }
 
 .navbar {
-    background-color:#110C11 !important;
+    background-color:#212121 !important;
     padding: 0px;
 }
 
@@ -37,13 +37,17 @@ header,
     padding: 10px;
 }
 
+.title {
+    font-size: 1.5em;
+}
+
 .circle {
     border-radius: 50%;
 }
 
 .poppins {
     font-family: "Poppins", sans-serif;
-    color: #110C11;
+    color: #212121;
 }
 
 .openSans {
@@ -53,6 +57,8 @@ header,
 .didactGothic {
     font-family: "Didact Gothic", sans-serif !important;
 }
+
+
 
 #bio {
     background-color: #e2b3b2;
@@ -71,14 +77,14 @@ p {
     
 }
 
+
+
 .page-footer {
-    background-color:#110C11;
+    background-color:#212121;
     color:whitesmoke !important;
 }
 
-::placeholder {
-    font-family: "Didact Gothic", sans-serif;
-}
+
 
 .emoji {
     animation-duration: 3s;    
@@ -86,4 +92,19 @@ p {
 
 .btn {
     background: #e2b3b2 !important;
+}
+
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e2b3b2 !important;
+  box-shadow: 0 1px 0 0 #e2b3b2 !important;
 }
