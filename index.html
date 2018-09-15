@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="animate.css">
-
-
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,62 +20,46 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Give+You+Glory|Open+Sans|Didact+Gothic|Montserrat|Poppins:700"
         rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!--Main Navigation-->
-    <header>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark secondary-color fixed-top">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark secondary-color fixed-top">
+        <div id="basicExampleNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link poppins">SUGARCODED</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--/.Navbar-->
 
-            <!-- Navbar brand -->
-            <!-- <a class="navbar-brand" href="#"><img src="/img/lightbox/circlelogo.png" width="100"></a> -->
-
-
-
-            <!-- Collapsible content -->
-            <div id="basicExampleNav">
-
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link poppins" href="#">SUGARCODED</a>
-                    </li>
-
-
-                </ul>
-                <!-- Links -->
-            </div>
-            <!-- Collapsible content -->
-
-        </nav>
-        <!--/.Navbar-->
-
-        <!-- mask -->
-        <div id="intro" class="view">
-            <div class="mask flex-center">
-                <div class="container-fluid full-bg-img d-flex align-items-center justify-content-center">
-                    <div class=row d-flex justify-content-center">
-                        <div class="col-md-12 text-center">
-                            <img class="animated slideInDown slower" src="/img/lightbox/circlelogo.png" alt="logo"
-                                height="400">
-                            <h3 class="didactGothic">WELCOME TO</h3>
-                            <h1 class="poppins display-3 black-text font-bold mb-2 animated zoomIn slow delay-2s">
-                                <font class="title" color="whitesmoke">SUGAR</font>
-                                <font class="title" color="#846351">CODED</font>
-                            </h1>
-                            <h4 class=" tagline didactGothic">Cupcakes, cakes, and cookies to make your next occassion a little
-                                sweeter.
-                            </h4>
-                        </div>
+    <!-- mask -->
+    <div id="intro" class="view">
+        <div class="mask flex-center">
+            <div class="container-fluid full-bg-img d-flex align-items-center justify-content-center">
+                <div class=row d-flex justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <img class="animated slideInDown slower" src="/img/lightbox/circlelogo.png" alt="logo" height="400">
+                        <h3 class="didactGothic">WELCOME TO</h3>
+                        <h1 class="poppins display-3 black-text font-bold mb-2 animated zoomIn slow delay-2s">
+                            <font class="title" color="whitesmoke">SUGAR</font>
+                            <font class="title" color="#846351">CODED</font>
+                        </h1>
+                        <h4 class=" tagline didactGothic">Cupcakes, cakes, and cookies to make your next occassion a
+                            little
+                            sweeter.
+                        </h4>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-    </header>
+
     <!--Main Navigation-->
 
     <!--Main layout-->
@@ -100,12 +82,16 @@
                             <h5 class="didactGothic">I'm Kacie, wife, mom of two, computer science educator, hobby
                                 baker,
                                 and
-                                my newest title, web developer. I took a 6-month coding bootcamp and finished in August.
-                                Still so much to learn but proud to say you're scrolling through a website I built! I live for the weekends and inclement
+                                my newest title, web developer. I took a 6-month coding bootcamp and finished in
+                                August.
+                                Still so much to learn but proud to say you're scrolling through a website I built! I
+                                live for the weekends and inclement
                                 weather days so I can bake and code to my heart's content. <br><br>
                                 Check out my gallery of sweet bytes. You can see more by clicking on an image to take
-                                you over to my Instagram page. If you would like to place an order, have questions about
-                                availibilities or flavor combinations, use the form below to send me a message or DM me on Instagram @sugarcoded.sc
+                                you over to my Instagram page. If you would like to place an order, have questions
+                                about
+                                availibilities or flavor combinations, use the form below to send me a message or DM me
+                                on Instagram @sugarcoded.sc
                             </h5>
                             <br>
                             <h5 class="didactGothic">Warm Regards,</h5>
@@ -143,13 +129,14 @@
                 <!--Section heading-->
                 <h2 class="h1-responsive font-weight-bold text-center my-5 poppins">INQUIRIES</h2>
                 <!--Section description-->
-                <h5 class="text-center w-responsive mx-auto mb-5 didactGothic">Would you like to place an order or do you have questions? Send me a message!</h5>
+                <h5 class="text-center w-responsive mx-auto mb-5 didactGothic">Would you like to place an order or do
+                    you have questions? Send me a message!</h5>
 
                 <div class="row">
 
                     <!--Grid column-->
                     <div class="col-md-12 mb-md-0 mb-5 text-center">
-                        <form action="https://formspree.io/kaciednguyen@gmail.com" method="POST">
+                        <form id="contactForm" action="https://formspree.io/kaciednguyen@gmail.com" method="POST">
 
                             <!--Grid row-->
                             <div class="row">
@@ -157,7 +144,8 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input autocomplete=off type="text" id="name" name="name" class="form-control" placeholder="Your name">
+                                        <input autocomplete=off type="text" id="name" name="name" class="form-control"
+                                            placeholder="Your name">
                                         <!-- <label for="name" class="">Your name</label> -->
                                     </div>
                                 </div>
@@ -166,7 +154,8 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input autocomplete=off type="text" id="email" name="_replyto" class="form-control" placeholder="Your email">
+                                        <input autocomplete=off type="text" id="email" name="email" class="form-control"
+                                            placeholder="Your email">
                                         <!-- <label for="email" class="">Your email</label> -->
                                     </div>
                                 </div>
@@ -179,7 +168,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <input autocomplete=off type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                                        <input autocomplete=off type="text" id="subject" name="subject" class="form-control"
+                                            placeholder="Subject">
                                         <!-- <label for="subject" class="">Subject</label> -->
                                     </div>
                                 </div>
@@ -190,7 +180,8 @@
                                 <div class="col-md-12">
 
                                     <div class="md-form">
-                                        <textarea autocomplete=off type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your message"></textarea>
+                                        <textarea autocomplete=off type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" placeholder="Your message"></textarea>
                                         <!-- <label for="message">Your message</label> -->
                                     </div>
 
@@ -198,7 +189,7 @@
                                 <div><input type="hidden" name="_next" value="https://maidiep.github.io/BootstrapPortfolioV2.0/" /></div>
 
                             </div>
-                            <input class="btn" type="submit" value="Send">
+                            <input class="btn" id="submit-button" type="submit" value="Send">
                         </form>
                     </div>
                 </div>
@@ -241,10 +232,11 @@
         <!-- LightWidget WIDGET -->
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         <!-- wow.js  -->
-        <script src="js/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
 
 </body>
