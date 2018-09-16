@@ -92,7 +92,7 @@ p {
 
 #gallery {
     animation-duration: 3s;
-    animation-delay: 1s;
+    /* animation-delay: .5s; */
 }
 
 .btn {
