@@ -1,12 +1,14 @@
 
-$(function() {
+// $(function() {
 
-    $("#contactForm").validate({
-        rules: {
-            email: {
-                required: true,
-                email: true
-            }
-        }
-    });
-});
+//     $("#contactForm").validate({
+//         rules: {
+//             email: {
+//                 required: true,
+//                 email: true
+//             }
+//         }
+//     });
+// });
+
+$("#contactForm").validate();
