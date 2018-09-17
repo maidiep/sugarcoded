@@ -115,7 +115,8 @@ textarea.md-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #e2b3b2 !important;
   box-shadow: 0 1px 0 0 #e2b3b2 !important;
 }
- img {
-     border: 0;
-    text-align: center;
- }
+
+#logo {
+    max-width: 100%; 
+    height: auto;
+}
