@@ -42,9 +42,9 @@
             <div class="container-fluid full-bg-img d-flex align-items-center justify-content-center">
                 <div class=row d-flex justify-content-center">
                     <div class="col-md-12 text-center">
-                        <img class="animated slideInDown slower" src="/img/circlelogo.png" alt="logo" height="400"/>
+                        <img class="animated bounceInDown slow" src="/img/circlelogo.png" alt="logo" height="400"/>
                         <h3 class="didactGothic">WELCOME TO</h3>
-                        <h1 class="poppins display-3 black-text font-bold mb-2 animated zoomIn slow delay-2s">
+                        <h1 class="poppins display-3 black-text font-bold mb-2 animated rubberBand slow delay-1s">
                             <font class="title" color="whitesmoke">SUGAR</font>
                             <font class="title" color="#846351">CODED</font>
                         </h1>
@@ -69,7 +69,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 justify-content-left">
-                        <img class="emoji wow slideInRight" alt="profile pic" src="/img/profilepic.png" height="300" />
+                        <img class="emoji wow bounceInLeft slower" alt="profile pic" src="/img/profilepic.png" height="300" />
                     </div>
                     <div id="bio" class="col-md-8">
                         <br>
@@ -98,7 +98,7 @@
     <hr class="my-5">
 
     <!-- gallery -->
-        <h2 class="h1-responsive font-weight-bold text-center my-5N poppins">GALLERY</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-5N poppins wow flipInX">GALLERY</h2>
         <br>
     <section id="gallery" class="text-center wow slideInUp">
             <iframe src="//lightwidget.com/widgets/9a1bf147130c5d7c9fd01eb58aa63314.html"
@@ -111,11 +111,11 @@
     <!-- Contact Form -->
     <div class="container text-center">
         <section class="contact-form text-center">
-            <h2 class="h1-responsive font-weight-bold text-center my-5 poppins">INQUIRIES</h2>
+            <h2 class="h1-responsive font-weight-bold text-center my-5 poppins wow flipInX">INQUIRIES</h2>
             <h5 class="text-center w-responsive mx-auto mb-5 didactGothic">Would you like to place an order or do
                 you have questions? Send me a message!</h5>
             <div class="row">
-                <div class="col-md-12 mb-md-0 mb-5 text-center">
+                <div class="col-md-12 mb-md-0 mb-5 text-center wow slideInUp slow">
                     <form id="contactForm" action="https://formspree.io/kaciednguyen@gmail.com" method="POST">
 
                         <!-- name and email input fields -->
@@ -123,16 +123,16 @@
                             <!-- Name Input -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input autocomplete=off type="text" id="name" name="name" class="form-control" required
-                                        placeholder="Your name">
+                                    <input type="text" id="name" name="name" class="form-control" required
+                                        placeholder="Your Name">
                                 </div>
                             </div>
 
                             <!-- Email Input -->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input autocomplete=off type="email" id="email" name="email" class="form-control" required
-                                        placeholder="Your email">
+                                    <input type="email" id="email" name="email" class="form-control" required
+                                        placeholder="Your Email">
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input autocomplete=off type="text" id="subject" name="subject" class="form-control" required
+                                    <input type="text" id="subject" name="subject" class="form-control" required
                                         placeholder="Subject">
                                 </div>
                             </div>
@@ -151,8 +151,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form">
-                                    <textarea autocomplete=off type="text" id="message" name="message" rows="2" class="form-control md-textarea" required
-                                        placeholder="Your message"></textarea>
+            
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required
+                                        placeholder="Your Message"></textarea>
                                 </div>
                             </div>
 
