@@ -9,120 +9,147 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
-    background-color: whitesmoke;
+  height: 100%;
+  background-color: whitesmoke;
 }
 
 #intro {
-    background: url("/img/bg3.png")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+  background: url("/img/bg3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar {
-    background-color:#212121 !important;
-    padding: 0px;
+  background-color: #212121 !important;
+  padding: 0px;
 }
 
-.nav-link, .navbar-brand {
-    color:whitesmoke !important;
-    padding: 10px;
-
+.nav-link,
+.navbar-brand {
+  color: whitesmoke !important;
+  padding: 10px;
 }
 
 .nav-item {
-    padding: 10px;
+  padding: 10px;
 }
 
 .title {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-
 .poppins {
-    font-family: "Poppins", sans-serif;
-    color: #212121;
+  font-family: "Poppins", sans-serif;
+  color: #212121;
 }
 
 .openSans {
-    font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .didactGothic {
-    font-family: "Didact Gothic", sans-serif !important;
+  font-family: "Didact Gothic", sans-serif !important;
 }
 
-
-
 #bio {
-    background-color: #e2b3b2;
-    font-size: 1em;
-    border-radius: 5px;
-    padding: 20px;
-    
+  background-color: #e2b3b2;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 p {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 #bioIntro {
-     font-family: "give you glory", cursive !important;
-    
+  font-family: "give you glory", cursive !important;
 }
-
-
 
 .page-footer {
-    background-color:#212121;
-    color:whitesmoke !important;
+  background-color: #212121;
+  color: whitesmoke !important;
 }
 
-
-
 .emoji {
-    animation-duration: 3s;    
+  animation-duration: 3s;
 }
 
 #gallery {
-    animation-duration: 2s;
-    /* animation-delay: .5s; */
+  animation-duration: 2s;
+  /* animation-delay: .5s; */
 }
 
 .btn {
-    background: #e2b3b2 !important;
-    color: whitesmoke
+  background: #e2b3b2 !important;
+  color: whitesmoke;
 }
 
-input[type=text]:focus:not([readonly]),
-input[type=password]:focus:not([readonly]),
-input[type=email]:focus:not([readonly]),
-input[type=url]:focus:not([readonly]),
-input[type=time]:focus:not([readonly]),
-input[type=date]:focus:not([readonly]),
-input[type=datetime-local]:focus:not([readonly]),
-input[type=tel]:focus:not([readonly]),
-input[type=number]:focus:not([readonly]),
-input[type=search-md]:focus:not([readonly]),
+input[type="text"]:focus:not([readonly]),
+input[type="password"]:focus:not([readonly]),
+input[type="email"]:focus:not([readonly]),
+input[type="url"]:focus:not([readonly]),
+input[type="time"]:focus:not([readonly]),
+input[type="date"]:focus:not([readonly]),
+input[type="datetime-local"]:focus:not([readonly]),
+input[type="tel"]:focus:not([readonly]),
+input[type="number"]:focus:not([readonly]),
+input[type="search-md"]:focus:not([readonly]),
 textarea.md-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #e2b3b2 !important;
   box-shadow: 0 1px 0 0 #e2b3b2 !important;
 }
 
 #logo {
-    max-width: 100%; 
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
-    .navbar {
-        display: none;
-    }
+  .navbar {
+    display: none;
+  }
+}
+
+a:link {
+  color: #846351 !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e2b3b2 !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e2b3b2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #e2b3b2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a {
+    font-family: "Didact Gothic", sans-serif !important;
+    font-size: 1.25em;
+
+}
+ 
+.navTitle {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 1em;
+    margin: 0;
 }
