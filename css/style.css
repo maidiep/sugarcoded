@@ -97,6 +97,7 @@ p {
 
 .btn {
     background: #e2b3b2 !important;
+    color: whitesmoke
 }
 
 input[type=text]:focus:not([readonly]),
